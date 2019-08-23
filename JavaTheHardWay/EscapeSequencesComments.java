@@ -10,9 +10,9 @@ public class EscapeSequencesComments {
        Quick wafting zephyrs vex bold Jim. */
        System.out /* testing */ .println( "Hard to believe, eh?" );
        System.out.println( "Surprised? /* abcde */ Or what did you expect?" );
-       System.out.println( "\\ // -=- \\ //" );
+       System.out.pri/**/ntln( "\\ // -=- \\ //" );
        System.out.println( "\\\\ \\\\\\ \\\\\\\\" ); // it takes 2 to make 1
        System.out.print( "I hope you understand \"escape sequences\" now.\n" );
        // and comments. :)
   }
-}
+} //code compiles
