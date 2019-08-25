@@ -3,6 +3,7 @@ public class MathOperations {
     int a, b, c, d, e, f, g;
     double x, y, z;
     String one, two, both;
+    int tom, jerry;
 
     a = 10;
     b = 27;
@@ -31,6 +32,11 @@ public class MathOperations {
     two = "house";
     both = one + two;
     System.out.println( both );
+    System.out.println();
+
+    tom = a + b - 1;
+    jerry = b % a * tom / 2;
+    System.out.println("Tom is " + tom  + ", and Jerry is " + jerry + ".");
 
   }
 }
