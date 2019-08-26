@@ -11,7 +11,7 @@ public class BMICalculator {
     System.out.print( "Your weight in pounds: " );
     pounds = keyboard.nextDouble();
 
-    m = inches / 0.0254;
+    m = inches / 39.37;
     kg = pounds / 2.205;
 
     bmi = kg / (m*m);
