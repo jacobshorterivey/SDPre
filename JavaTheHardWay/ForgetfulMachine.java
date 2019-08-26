@@ -17,3 +17,5 @@ public class ForgetfulMachine {
     keyboard.next();
   }
 }
+ //The 2nd question blows up when I type 2.2
+ //The 3rd question blows up when I type 'sa' because it's a string
