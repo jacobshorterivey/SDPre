@@ -25,5 +25,8 @@ public class AgeMessages {
       System.out.println( "\ttoo young to run for President of the U.S." );
       System.out.println( "\t\t(How sad!)" );
     }
+    if (age > 65 ) {
+      System.out.println( "\tYou are old enough to retire!" );
+    }
   }
 }
