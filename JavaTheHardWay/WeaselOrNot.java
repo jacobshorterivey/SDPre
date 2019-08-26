@@ -9,7 +9,7 @@ public class WeaselOrNot {
     System.out.println( "Type the word \"weasel\", please." );
     word = keyboard.next();
 
-    yep = word.equals("weasel");
+    yep = "weasel".equals(word);
     nope = ! word.equals("weasel");
 
     System.out.println( "You typed what was requested: " + yep );
