@@ -3,10 +3,18 @@ import java.util.Scanner;
 public class BMICategories {
   public static void main( String[] args ) {
     Scanner keyboard = new Scanner(System.in);
-    double bmi;
+    double bmi, inches, pounds, m, kg;
 
-    System.out.print( "Enter your BMI: " );
-    bmi = keyboard.nextDouble();
+    System.out.print( "Your height in inches: " );
+    inches = keyboard.nextDouble();
+
+    System.out.print( "Your weight in pounds: " );
+    pounds = keyboard.nextDouble();
+
+    m = inches / 39.37;
+    kg = pounds / 2.205;
+
+    bmi = kg / (m*m);
 
     System.out.print( "BMI category: " );
     if ( bmi < 15.0 ) {
@@ -18,7 +26,7 @@ public class BMICategories {
     else if ( bmi <= 18.5 ) {
       System.out.println( "underweight" );
     }
-    if ( bmi <= 25.0 ) {
+    else if ( bmi <= 25.0 ) {
       System.out.println( "normal weight" );
     }
     else if ( bmi <= 30.0 ) {
