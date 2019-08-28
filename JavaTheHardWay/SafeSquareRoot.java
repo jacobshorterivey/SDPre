@@ -5,6 +5,14 @@ public class SafeSquareRoot {
     Scanner keyboard = new Scanner(System.in);
     double x,y;
 
+    System.out.println("Are you ready?!?? If so, reply 'YES!'.");
+    String ready = keyboard.nextLine();
+    while (!ready.equals("YES!")) {
+      System.out.println("Take your time, then. ");
+      System.out.println("Are you ready?!?? If so, reply 'YES!'.");
+      ready = keyboard.nextLine();
+    }
+
     System.out.print("Give me a number, and I'll find it's square root. ");
     System.out.print("(No negatives, please.) ");
     x = keyboard.nextDouble();
