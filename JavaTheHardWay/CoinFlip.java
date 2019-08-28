@@ -53,6 +53,7 @@
       }
     }
     System.out.println( "Final score: " + streak );
+    
   }
 }
 
