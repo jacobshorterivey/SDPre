@@ -10,6 +10,7 @@
       print48Ohs();
       print48Colons();
       print48Ohs();
+      printPledge();
     }
 
     public static void print48Colons() {
